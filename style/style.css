@@ -1,0 +1,124 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #e8e2de;
+}
+.sixth{
+    height:40vh; 
+}
+.sixth-img{
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/4672662/pexels-photo-4672662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.seventh-img{
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/4672745/pexels-photo-4672745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.sixth-overlay{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 23, 22, 0.46);
+    
+}
+
+.s-iteam::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    
+    }
+.s-iteam:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(182, 174, 164, 0.255);
+    transition: 1s;
+}
+
+.s-iteam::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    
+    }
+.s-iteam:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(182, 174, 164, 0.224);
+    transition: 1s;
+}
+.smallDiv{
+    transition: 0.5s;
+    /* height: 300px; */
+    width:350px
+}
+.smallDiv:hover{
+    transform: scale(0.9,0.9);
+}
+.line{
+    width: 60px;
+    /* margin: auto; */
+    border: 1px solid rgb(0, 0, 0);
+    transition: 1s;
+}
+.ds{
+    height:100px;
+}
+.colline:hover .line{
+    width: 115px;
+}
+.colline{
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5); 
+    
+}
+.colline img{
+    transition:1s;
+    border-radius: 5px;
+   width: 100%;
+   height: 100%;
+
+    
+}
+.colline:hover img{
+    transform: scale(1.03,1.03);
+}
+
+.logoimg{
+    border-radius: 100px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.try{
+    margin:auto;
+}
+.navL{
+    
+    font-size: 30px;
+}
+
+.s-iteam{
+    background-color:#e8e2de; 
+    border-style: none;
+    text-align: center;
+    width:350px  
+}
+.s{
+    background:linear-gradient(to left, #e8e2de, #ccc2bd,#e8e2de); 
+    border-radius: 100px;
+     border-style: none;
+}

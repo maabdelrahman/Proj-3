@@ -1,0 +1,612 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="style/all.css">
+  <title></title>
+</head>
+<body >
+  <header>
+    <nav class="navbar navbar-expand-lg text-dark " style="background:linear-gradient(to right, #ffffff, #7e7469); ">
+      <div class="container-fluid">
+        <a class="navbar-brand px-3" href="#">
+          <img src="https://bogdaoskin.com/cdn/shop/files/logomin_small.png?v=1709812137" alt="Logo" width="40" height="10" class="d-inline-block align-text-center" style="transform: scale(2.06);">
+          
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><strong> Home</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+         
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-light mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+          </button>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                      <label class="form-check-label" for="flexSwitchCheckChecked">Remember me</label>
+                    </div>
+                    
+                  </form>
+                </div>
+                <div class="modal-footer position-relative">
+                  <button type="button" class="btn btn-secondary position-absolute start-0 ms-3 " data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-dark">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+
+  <div class="position-fixed top-50 end-0 translate-middle-y p-3" style="z-index:2;">
+    <ul class="nav flex-column">
+      <li class="nav-item navL">
+        <a class="nav-link link-secondary" aria-current="page" href="#"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+      <li class="nav-item navL">
+        <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+      <li class="nav-item navL">
+        <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      </li>
+      <li class="nav-item navL">
+        <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </li>
+    </ul>
+  </div>
+  
+  <main>
+  <div id="carouselExampleCaptions" class="carousel slide"  data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        
+        <img src="https://images.pexels.com/photos/4406796/pexels-photo-4406796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..." height="900">
+        <div class="carousel-caption d-block d-md-block bg-light bg-gradient text-dark" style="--bs-bg-opacity: .25; border-radius: 80px;">
+          <h4>bogdao skin Club</h4>
+          <p>An iconic Polish experience, enjoyed from anywhere</p>
+          <button type="button" class="btn btn-light">Know More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/6167445/pexels-photo-6167445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..." height="900">
+        <div class="carousel-caption d-block d-md-block bg-light bg-gradient text-dark" style="--bs-bg-opacity: .25; border-radius:80px;">
+          <h4>Our Story</h4>
+          <p>Serving Poland Since 2012</p>
+          <button type="button" class="btn btn-light">Locations</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/6167446/pexels-photo-6167446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..."  height="900">
+        <div class="carousel-caption d-block d-md-block bg-light bg-gradient text-dark" style="--bs-bg-opacity: .25; border-radius: 80px;">
+          <h4>bogdao skin Store</h4>
+          <p>Jana Kasprowicz 11 , Kraków </p>
+          <button type="button" class="btn btn-light">Visit</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</main>
+
+<section>
+  <div class="card my-3 text-center text-dark" style="background:linear-gradient(to left, #e8e2de, #b0a49d,#e8e2de);border-radius: 100px ;border-style: none;">
+    <div class="card-body">
+      <h3 class="card-title">bogdao skin</h3>
+      <hr class="line m-auto ">
+      <p class="card-text lh-base">Fill your life with Nature</p>
+      <a href="#" class="btn btn-outline-dark">Order Now</a>
+    </div>
+  </div>
+</section>
+  
+<hr>
+
+<section>
+  <div class="card text-dark s" >
+    <div class="card-body d-flex justify-content-center align-items-center my-2">
+      <h1>Our Story</h1>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="accordion accordion-flush pt-3" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+         <h5>Our Mission</h5>
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Our awareness of good skincare has developed over the years. Testing proprietary solutions, refined by specialised research, we realised that the secret to healthy, glowing skin lies in finding the balance in our bodies and then supporting it with a few essential skincare steps based on advanced ingredients that work in concert with the skin's regenerative processes. As individuals with strong tendencies towards allergies and skin imperfections, we believe in the necessity of a holistic approach in order to achieve visible results.
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          <h5>The bogdao skin Experience</h5>
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Driven by a mission to elevate skincare to new heights, champion diversity, and instill confidence, we founded BOGDAO. As a family-owned business, our signature formulas reflecting our unwavering commitment to excellence. Join us on this transformative journey and let our products become an essential part of your daily ritual.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          <h5>Our Ingredients </h5>
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">We use advanced plant-based ingredients from around the world to create a synergistic effect in skincare. Our products are versatile and can be used for different skin types, seasons and lifestyles. Our formulations contain cold-pressed oils rich in essential fatty acids, crystal clear waters with skin-soothing properties and effective bioactive ingredients extracted using advanced biotechnology methods from plants.
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <hr>
+
+<section>
+  <div class="card">
+    <h2 class="card-header d-flex justify-content-center s" >Feedback</h2>
+    <div class="card-body">
+      <h5 class="card-title">Please give us your Feedback Below&nbsp;<i class="fa-regular fa-comments"></i></h5>
+      <textarea class="form-control my-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>       
+      <a href="#" class="btn btn-dark" id="Feedbackbtn">Submit</a> 
+    </div>
+  </div>
+</section>
+
+<hr>
+<section>
+  <div class="sixth w-100">
+    <div class="sixth-img">
+      <div class="sixth-overlay">
+      </div><!-- sixth overlay -->
+    </div><!-- sixth-img -->
+  </div><!-- sixth part -->
+</section>
+
+<section>
+<div class="card s" >
+    <div class="card-body d-flex justify-content-center align-items-center " style="color:#302a27">
+      <h1>Best Sellers</h1>
+    </div>
+</div>
+</section>
+
+
+<section style="background-color: #e8e2de;">
+<div class="container mb-5">
+    <div class="row gap-5 pt-5 justify-content-center" >
+      <div class="card col-12 col-md-3 s-iteam">
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_1_1000x.png?v=1709735770" class="card-img-top" alt="..."  height="350">
+        <div class="card-body">
+          <h5  class="card-title">Rose Toner THE WILD ROSE</h5>
+          <p class="card-text">bogdao skin<br>$15</p>
+          <a  class="btn btn-dark">Add to Cart</a>
+        </div>
+      </div>
+      <!-- C1 -->
+
+      <div class="card col-12 col-md-3 s-iteam" >
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_4_1000x.png?v=1709735675"  class="card-img-top" alt="..."  height="350">
+        <div class="card-body">
+          <h5  class="card-title">Cellular Extract Serum </h5>
+          <p class="card-text">bogdao skin<br>$15</p>
+         <a href="#" class="btn btn-dark">Add to Cart</a>
+        </div>
+      </div>
+      <!-- C1 -->
+
+      <div class="card col-12 col-md-3 s-iteam" >
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_13_1000x.png?v=1709735685" class="card-img-top" alt="..."  height="350">
+        <div class="card-body">
+          <h5  class="card-title">Extra-Reviving Eye Cream</h5>
+          <p class="card-text">bogdao skin<br>$15</p>
+          <a href="#" class="btn btn-dark">Add to Cart</a>
+        </div>
+      </div>
+      <!-- C1 -->
+
+
+    </div>
+    <!-- R1 -->
+
+    <div class="row gap-5 pt-3 justify-content-center">
+      <div class="card col-12 col-md-3 s-iteam" >
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_18_1000x.png?v=1709735739" class="card-img-top" alt="..."  height="350">
+        <div class="card-body">
+          <h5  class="card-title">Plumping Supermoisturiser</h5>
+          <p class="card-text">bogdao skin<br>$15</p>
+          <a  class="btn btn-dark">Add to Cart</a>
+        </div>
+      </div>
+      <!-- C1 -->
+
+      <div class="card col-12 col-md-3 s-iteam " >
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_6_1000x.png?v=1709735667"  class="card-img-top" alt="..."  height="350">
+        <div class="card-body">
+          <h5  class="card-title">Cell Renewing Serum LUNAR ELIXIR</h5>
+          <p class="card-text">bogdao skin<br>$15</p>
+          <a href="#" class="btn btn-dark">Add to Cart</a>
+        </div>
+      </div>
+      <!-- C1 -->
+
+      <div class="card col-12 col-md-3 s-iteam" >
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_10kopiaxx_1000x.png?v=1709735727"  class="card-img-top" alt="..."  height="350">
+        <div class="card-body">
+          <h5  class="card-title">Hypoallergenic</h5>
+          <p class="card-text">bogdao skin<br>$15</p>
+          <a href="#" class="btn btn-dark">Add to Cart</a>
+        </div>
+      </div>
+      <!-- C1 -->
+
+
+    </div>
+    <!-- R2 -->
+
+    <div class="row gap-5 pt-3 justify-content-center ">
+      <div class="card col-12 col-md-3 s-iteam" >
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_8_1000x.png?v=1709735762" class="card-img-top" alt="..."  height="350">
+        <div class="card-body">
+          <h5 price="150000" class="card-title">Rich Body Cream </h5>
+          <p class="card-text">bogdao skin<br>$25</p>
+          <a  class="btn btn-dark">Add to Cart</a>
+        </div>
+      </div>
+      <!-- C1 -->
+
+      <div class="card col-12 col-md-3 s-iteam" >
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/instantglow_1800x_df98c547-b68a-435a-860d-cac1573b2729_1000x.webp?v=1712389524"  class="card-img-top" alt="..."  height="350">
+        <div class="card-body">
+          <h5 price="20000" class="card-title">“INSTANT GLOW” SET
+          </h5>
+          <p class="card-text">bogdao skin<br>$25</p>
+          <a href="#" class="btn btn-dark">Add to Cart</a>
+        </div>
+      </div>
+      <!-- C1 -->
+
+
+    </div>
+    <!-- R3 -->
+
+      
+    
+  
+</div>
+</section>
+
+<section>
+<div class="sixth w-100">
+  <div class="seventh-img">
+    <div class="sixth-overlay">
+    </div><!-- sixth overlay -->
+  </div><!-- sixth-img -->
+</div>
+</section>
+
+<hr>
+
+<section>
+<div class="card s">
+  <div class="card-body d-flex justify-content-center align-items-center">
+    <h1>Popular Topics</h1>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="container pt-5 pb-5">
+  <div class="row gap-5 justify-content-center">
+    <div class="col-12 col-md-3 smallDiv">
+      <div class="card text-bg-dark ">
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/bodyrenewal-set_1800x_1_1000x.webp?v=1712388604" class="card-img w-100" alt="..." style="height: 400px;">
+        <div class="card-img-overlay d-flex flex-column sixth-overlay">
+          <h5 class="card-title"><strong>Offers</strong></h5>
+          <p class="card-text"><small><i class="fa-regular fa-clock"></i> Every Thursday</small></p>
+          <div class="mt-auto">
+          <img src="https://en.bogdaoskin.com/cdn/shop/files/bodyrenewal-set_1800x_1_1000x.webp?v=1712388604" alt="" width="80" height="100" style="border-radius: 100px;">
+          <p class="card-text">Buy 2 Get 1 offers</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-3 smallDiv">
+      <div class="card text-bg-dark">
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_7_1000x.png?v=1709735700" class="card-img w-100" alt="..." style="height: 400px;">
+        <div class="card-img-overlay d-flex flex-column sixth-overlay">
+          <h5 class="card-title"><strong>Tips and Tricks</strong></h5>
+          <p class="card-text"><small><i class="fa-regular fa-clock"></i> updated 3 mins ago</small></p>
+          <div class="mt-auto">
+          <img src="https://en.bogdaoskin.com/cdn/shop/files/20240226produktowe_ZCzaplak_7_1000x.png?v=1709735700" alt="" width="80" height="100" style="border-radius: 100px;">
+          <p class="card-text">Order to make your own Skin care.</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-3 smallDiv">
+      <div class="card text-bg-dark">
+        <img src="https://en.bogdaoskin.com/cdn/shop/files/brush_960x.png?v=1712389908" class="card-img w-100" alt="..." style="height: 400px;">
+        <div class="card-img-overlay d-flex flex-column sixth-overlay">
+          <h5 class="card-title"><strong>Tools</strong></h5>
+          <p class="card-text"><small><i class="fa-regular fa-clock"></i> Restock Everyweek</small></p>
+          <div class="mt-auto">
+          <img src="https://en.bogdaoskin.com/cdn/shop/files/brush_960x.png?v=1712389908" alt="" width="80" height="100" style="border-radius: 100px;">
+          <p class="card-text">For your Coffee Bar</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<hr>
+
+<section>
+<div class="card pb-2 s" >
+  <div class="card-body d-flex justify-content-center align-items-center">
+    <h1>Locations</h1>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="container">
+  <div class="row gy-3">
+    <div class="col-12">
+      <div class="card mb-3 col-12 colline">
+        <div class="row g-0">
+          <div class="col-lg-4 order-lg-2 d-flex align-items-center ">
+            <img src="https://images.pexels.com/photos/6634173/pexels-photo-6634173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-lg-8 order-lg-1"> 
+            <div class="card-body">
+              <h1 class="card-title">11 Jana Kasprowicz Street</h1>
+              <small class="card-text"><i class="fa-regular fa-calendar-days"></i> Open 7 days, 7am-5pm</small>
+              <hr class="line">   
+              <div class="ds mb-5">                     
+                <p class="card-text">Hilton Hotel 5, Kraków, Poland</p>
+              </div>
+              <p class="card-text"><button type="button" class="btn btn-sm btn-secondary"><i class="fa-solid fa-tag"></i> Offers</button> <button type="button" class="btn btn-sm btn-secondary"><i class="fa-solid fa-clock"></i> Timings</button> <button type="button" class="btn btn-sm btn-dark"><i class="fa-solid fa-location-dot"></i> Get Directions</button></p>
+            </div>
+          </div>     
+        </div>
+      </div>      
+    </div>
+
+    <div class="col-12 ">
+      <div class="card mb-3 col-12 colline">
+        <div class="row g-0">
+          <div class="col-lg-4 order-lg-1 d-flex align-items-center ">
+            <img src="https://images.pexels.com/photos/6634175/pexels-photo-6634175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-lg-8 order-lg-2"> 
+            <div class="card-body">
+              <h1 class="card-title">38 Lublańska </h1>
+              <small class="card-text"><i class="fa-regular fa-calendar-days"></i> Open from 7am - 5pm </small>
+              <hr class="line">   
+              <div class="ds mb-5">                     
+                <p class="card-text">Tertium Business Park , Kraków, Poland</p>
+              </div>
+              <p class="card-text"><button type="button" class="btn btn-sm btn-secondary"><i class="fa-solid fa-tag"></i> Offers</button> <button type="button" class="btn btn-sm btn-secondary"><i class="fa-solid fa-clock"></i> Timings</button> <button type="button" class="btn btn-sm btn-dark"><i class="fa-solid fa-location-dot"></i> Get Directions</button></p>
+            </div>
+          </div>     
+        </div>
+      </div>      
+    </div>
+
+    <div class="col-12 ">
+      <div class="card mb-3 col-12 colline">
+        <div class="row g-0">
+          <div class="col-lg-4 order-lg-2 d-flex align-items-center ">
+            <img src="https://images.pexels.com/photos/13068377/pexels-photo-13068377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-lg-8 order-lg-1"> 
+            <div class="card-body">
+              <h1 class="card-title">4/9 Krowoderska</h1>
+              <small class="card-text"><i class="fa-regular fa-calendar-days"></i> Open from 7am - 5pm </small>
+              <hr class="line">   
+              <div class="ds mb-5">                     
+                <p class="card-text">Amber Hostel , Kraków, Poland </p>
+              </div>
+              <p class="card-text"><button type="button" class="btn btn-sm btn-secondary"><i class="fa-solid fa-tag"></i> Offers</button> <button type="button" class="btn btn-sm btn-secondary"><i class="fa-solid fa-clock"></i> Timings</button> <button type="button" class="btn btn-sm btn-dark"><i class="fa-solid fa-location-dot"></i> Get Directions</button></p>
+            </div>
+          </div>     
+        </div>
+      </div>      
+    </div>
+    
+  </div>
+</div>
+</section>
+
+
+<section>
+<div class="d-flex justify-content-center py-3">
+  <h2>Join Us</h2>
+</div>
+</section>
+
+<section>
+<div class="container">
+  <div class="row justify-content-center">
+    
+    <div class="col-12 col-lg-3">
+      <div class="card text-center mb-3 m-auto" style="width: 18rem;">
+        <div class="card-body">
+          <h3 class="card-title">Follow us</h3>
+          <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="" width="80" height="80" class="logoimg"></a>
+          <h4 class="card-text pt-2">Go To Link</h4>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-12  col-lg-3">
+      <div class="card text-center mb-3 m-auto" style="width: 18rem;">
+        <div class="card-body">
+          <h3 class="card-title">Follow us</h3>
+          <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/640px-Facebook_icon_2013.svg.png" alt="" width="80" height="80" class="logoimg"></a>
+          <h4 class="card-text pt-2">Go To Link</h4>
+        </div>
+      </div>
+    </div>
+   
+   
+    <div class="col-12  col-lg-3">
+      <div class="card text-center mb-3 m-auto" style="width: 18rem;">
+        <div class="card-body">
+          <h3 class="card-title">Follow us</h3>
+          <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/220px-Logo_of_Twitter.svg.png" alt="" width="80" height="80" class="logoimg"></a>
+          <h4 class="card-text pt-2">Go To Link</h4>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-12  col-lg-3 ">
+      <div class="card text-center mb-3 m-auto" style="width: 18rem;">
+        <div class="card-body">
+          <h3 class="card-title">Follow us</h3>
+          <a href=""><img src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473" alt="" width="80" height="80" class="logoimg"></a>
+          <h4 class="card-text pt-2">Go To Link</h4>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<footer class="footer pt-5">
+  <!-- <div class="container"> -->
+    <div class="row mx-2 mb-4">
+      <div class="col-12 col-lg-4 text-center mb-3" >
+      <div class="card-body">
+        <hr>
+        <h5 class="card-title"><i class="fa-solid fa-bag-shopping"></i> Shop </h5>
+        <hr>
+        <p class="card-text">Skin Care</p>
+        <p class="card-text">Subscriptions</p>
+        <p class="card-text">Equipment</p>
+      </div>
+      </div>
+      <div class="col-12 col-lg-4 text-center mb-3" >
+        <div class="card-body">
+          <hr>
+          <h5 class="card-title"><i class="fa-solid fa-book-open"></i> Learn </h5>
+          <hr>
+        
+          <p class="card-text">Our Story</p>
+          <p class="card-text">Wholesale</p>
+          <p class="card-text">Locations</p>
+        </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center mb-3" >
+          <div class="card-body">
+            <hr>
+            <h5 class="card-title"><i class="fa-solid fa-circle-info"></i> Support </h5>
+            <hr>
+            
+            <p class="card-text">Contact</p>
+            <p class="card-text">Careers</p>
+            <p class="card-text">FAQ</p>
+          </div>
+          </div>
+    </div>
+  
+  <div class="card mb-2">
+    <div class="card-body d-flex justify-content-center align-items-center">
+      <p>&copy; 2024 bogdaoskin. All rights reserved</p> 
+    </div>
+    
+  </div>
+  
+    <!-- </div> -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="JS/script.js"></script>
+</body>
+</html>
